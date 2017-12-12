@@ -102,7 +102,6 @@ extension CreateRecordRealm{
         do{
             
             try realm.write({
-                //                realm.add(listRecord!)
                 realm.add(listRecord!, update: true)
             })
         }catch _ {
@@ -272,8 +271,6 @@ extension DeleteRecordRealm{
         }
     }
 }
-
-
 
 //---------------------------- END ---------------------------------//
 

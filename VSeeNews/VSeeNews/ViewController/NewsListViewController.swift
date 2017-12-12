@@ -37,6 +37,8 @@ class NewsListViewController: BaseViewController {
     
     override func initData() {
         mappingArticleList()
+        
+        //pull to refresh
         newsTableView.addPullToRefresh { [weak self] in
             self?.callAPIGetData()
         }
