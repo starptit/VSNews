@@ -46,7 +46,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uZu-QI-2a3">
-                        <rect key="frame" x="0.0" y="79" width="320" height="0.5"/>
+                        <rect key="frame" x="8" y="79" width="312" height="0.5"/>
                         <color key="backgroundColor" red="0.67450980392156867" green="0.67450980392156867" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="0.5" id="XIw-8K-0vn"/>
@@ -58,7 +58,7 @@
                     <constraint firstItem="M52-CZ-sPt" firstAttribute="leading" secondItem="OxO-my-Rwh" secondAttribute="trailing" constant="8" id="2V0-sM-yXk"/>
                     <constraint firstItem="OxO-my-Rwh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="4S0-Xa-Wfj"/>
                     <constraint firstItem="uZu-QI-2a3" firstAttribute="top" secondItem="O4Q-RC-jeB" secondAttribute="bottom" constant="8" id="BOe-ZW-0IT"/>
-                    <constraint firstItem="uZu-QI-2a3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CKN-Jd-HnF"/>
+                    <constraint firstItem="uZu-QI-2a3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="CKN-Jd-HnF"/>
                     <constraint firstAttribute="trailing" secondItem="O4Q-RC-jeB" secondAttribute="trailing" constant="8" id="DgX-jn-Ktq"/>
                     <constraint firstAttribute="trailing" secondItem="uZu-QI-2a3" secondAttribute="trailing" id="PPa-Nq-JaD"/>
                     <constraint firstItem="O4Q-RC-jeB" firstAttribute="leading" secondItem="OxO-my-Rwh" secondAttribute="trailing" constant="8" id="Qje-NZ-wlZ"/>
