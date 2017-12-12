@@ -1,0 +1,18 @@
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs'
+   
+target 'VSeeNews' do
+    ## Realm
+	pod 'RealmSwift'
+    ##API
+    pod 'Alamofire'
+    pod 'ObjectMapper'
+    
+    ##UI coding
+    pod 'SnapKit'
+    
+    ##image download async cache
+    pod 'Kingfisher'
+    pod 'SVPullToRefresh'
+end
