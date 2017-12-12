@@ -20,7 +20,22 @@
 		A03D05BF1FDD90E6003FD183 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03D05BE1FDD90E6003FD183 /* DateExtension.swift */; };
 		A03D05C11FDD91A0003FD183 /* Realm+Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03D05C01FDD91A0003FD183 /* Realm+Security.swift */; };
 		A03D05C61FDD95DB003FD183 /* Realm+Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03D05C51FDD95DB003FD183 /* Realm+Converter.swift */; };
+		A056C6821FDEF8C0005A561A /* CoreAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056C6811FDEF8C0005A561A /* CoreAPIService.swift */; };
+		A056C6861FDEFDD0005A561A /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056C6841FDEFDD0005A561A /* ArticleTableViewCell.swift */; };
+		A056C6871FDEFDD0005A561A /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A056C6851FDEFDD0005A561A /* ArticleTableViewCell.xib */; };
+		A056C6891FDEFDEF005A561A /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056C6881FDEFDEF005A561A /* BaseTableViewCell.swift */; };
+		A056C68B1FDF0915005A561A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056C68A1FDF0915005A561A /* StringExtension.swift */; };
+		A059FC881FDEDF10005D402F /* ArticleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059FC871FDEDF10005D402F /* ArticleEntity.swift */; };
+		A059FC8A1FDEE768005D402F /* ArticleSourceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059FC891FDEE768005D402F /* ArticleSourceEntity.swift */; };
+		A059FC8C1FDEED84005D402F /* Alamofire+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059FC8B1FDEED84005D402F /* Alamofire+ObjectMapper.swift */; };
+		A059FC8E1FDEF155005D402F /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059FC8D1FDEF155005D402F /* ArticleService.swift */; };
+		A059FC911FDEF29D005D402F /* RequestInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059FC901FDEF29D005D402F /* RequestInput.swift */; };
+		A059FC931FDEF48C005D402F /* ResponseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059FC921FDEF48C005D402F /* ResponseOutput.swift */; };
 		A0D7B30F1FDE319500ABA654 /* RealmConnectorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7B30E1FDE319500ABA654 /* RealmConnectorManager.swift */; };
+		A0D7B3111FDE3D0800ABA654 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7B3101FDE3D0800ABA654 /* BaseViewController.swift */; };
+		A0D7B3131FDE3D7900ABA654 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7B3121FDE3D7900ABA654 /* NewsListViewController.swift */; };
+		A0D7B3151FDE3D8900ABA654 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7B3141FDE3D8900ABA654 /* NewsDetailViewController.swift */; };
+		A0D7B3171FDE497400ABA654 /* ConstantDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7B3161FDE497400ABA654 /* ConstantDefine.swift */; };
 		A0F1CA411FDDA077006FAA39 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CA401FDDA077006FAA39 /* LogManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +76,22 @@
 		A03D05BE1FDD90E6003FD183 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		A03D05C01FDD91A0003FD183 /* Realm+Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Security.swift"; sourceTree = "<group>"; };
 		A03D05C51FDD95DB003FD183 /* Realm+Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Converter.swift"; sourceTree = "<group>"; };
+		A056C6811FDEF8C0005A561A /* CoreAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAPIService.swift; sourceTree = "<group>"; };
+		A056C6841FDEFDD0005A561A /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		A056C6851FDEFDD0005A561A /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		A056C6881FDEFDEF005A561A /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		A056C68A1FDF0915005A561A /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A059FC871FDEDF10005D402F /* ArticleEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleEntity.swift; sourceTree = "<group>"; };
+		A059FC891FDEE768005D402F /* ArticleSourceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSourceEntity.swift; sourceTree = "<group>"; };
+		A059FC8B1FDEED84005D402F /* Alamofire+ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+ObjectMapper.swift"; sourceTree = "<group>"; };
+		A059FC8D1FDEF155005D402F /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		A059FC901FDEF29D005D402F /* RequestInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInput.swift; sourceTree = "<group>"; };
+		A059FC921FDEF48C005D402F /* ResponseOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseOutput.swift; sourceTree = "<group>"; };
 		A0D7B30E1FDE319500ABA654 /* RealmConnectorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConnectorManager.swift; sourceTree = "<group>"; };
+		A0D7B3101FDE3D0800ABA654 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A0D7B3121FDE3D7900ABA654 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		A0D7B3141FDE3D8900ABA654 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		A0D7B3161FDE497400ABA654 /* ConstantDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantDefine.swift; sourceTree = "<group>"; };
 		A0F1CA401FDDA077006FAA39 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 		F59DC7D4860E16E8ABAED3F3 /* Pods-VSeeNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSeeNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSeeNews/Pods-VSeeNews.release.xcconfig"; sourceTree = "<group>"; };
 		F6AEE4103529A6DDD3E2C6D7 /* Pods_VSeeNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSeeNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,8 +160,8 @@
 				A03D05B31FDD8C77003FD183 /* Utils */,
 				A03D05B51FDD8C77003FD183 /* Model */,
 				A03D05B41FDD8C77003FD183 /* Service */,
-				A03D05B21FDD8C77003FD183 /* Storyboard */,
 				A03D05B61FDD8C78003FD183 /* ViewController */,
+				A03D05B21FDD8C77003FD183 /* Storyboard */,
 				A03D05841FDD7FB9003FD183 /* AppDelegate.swift */,
 				A03D058B1FDD7FB9003FD183 /* Assets.xcassets */,
 				A03D058D1FDD7FB9003FD183 /* LaunchScreen.storyboard */,
@@ -169,9 +199,11 @@
 		A03D05B31FDD8C77003FD183 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A059FC8F1FDEF1CF005D402F /* CoreAPI */,
 				A03D05C21FDD9547003FD183 /* Realm */,
 				A03D05B71FDD8F45003FD183 /* Extension */,
 				A0F1CA401FDDA077006FAA39 /* LogManager.swift */,
+				A0D7B3161FDE497400ABA654 /* ConstantDefine.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -179,6 +211,7 @@
 		A03D05B41FDD8C77003FD183 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				A059FC8D1FDEF155005D402F /* ArticleService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -186,6 +219,8 @@
 		A03D05B51FDD8C77003FD183 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A059FC871FDEDF10005D402F /* ArticleEntity.swift */,
+				A059FC891FDEE768005D402F /* ArticleSourceEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +228,10 @@
 		A03D05B61FDD8C78003FD183 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A056C6831FDEFDBA005A561A /* CustomCell */,
+				A0D7B3101FDE3D0800ABA654 /* BaseViewController.swift */,
+				A0D7B3121FDE3D7900ABA654 /* NewsListViewController.swift */,
+				A0D7B3141FDE3D8900ABA654 /* NewsDetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -206,6 +245,8 @@
 				A03D05BE1FDD90E6003FD183 /* DateExtension.swift */,
 				A03D05C01FDD91A0003FD183 /* Realm+Security.swift */,
 				A03D05C51FDD95DB003FD183 /* Realm+Converter.swift */,
+				A059FC8B1FDEED84005D402F /* Alamofire+ObjectMapper.swift */,
+				A056C68A1FDF0915005A561A /* StringExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -216,6 +257,26 @@
 				A0D7B30E1FDE319500ABA654 /* RealmConnectorManager.swift */,
 			);
 			path = Realm;
+			sourceTree = "<group>";
+		};
+		A056C6831FDEFDBA005A561A /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				A056C6881FDEFDEF005A561A /* BaseTableViewCell.swift */,
+				A056C6841FDEFDD0005A561A /* ArticleTableViewCell.swift */,
+				A056C6851FDEFDD0005A561A /* ArticleTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		A059FC8F1FDEF1CF005D402F /* CoreAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A059FC901FDEF29D005D402F /* RequestInput.swift */,
+				A059FC921FDEF48C005D402F /* ResponseOutput.swift */,
+				A056C6811FDEF8C0005A561A /* CoreAPIService.swift */,
+			);
+			path = CoreAPI;
 			sourceTree = "<group>";
 		};
 		F7753108C95DB243DFFA533C /* Frameworks */ = {
@@ -336,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A056C6871FDEFDD0005A561A /* ArticleTableViewCell.xib in Resources */,
 				A03D058F1FDD7FB9003FD183 /* LaunchScreen.storyboard in Resources */,
 				A03D058C1FDD7FB9003FD183 /* Assets.xcassets in Resources */,
 				A03D058A1FDD7FB9003FD183 /* Main.storyboard in Resources */,
@@ -429,14 +491,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A059FC931FDEF48C005D402F /* ResponseOutput.swift in Sources */,
+				A0D7B3151FDE3D8900ABA654 /* NewsDetailViewController.swift in Sources */,
 				A0F1CA411FDDA077006FAA39 /* LogManager.swift in Sources */,
 				A0D7B30F1FDE319500ABA654 /* RealmConnectorManager.swift in Sources */,
 				A03D05851FDD7FB9003FD183 /* AppDelegate.swift in Sources */,
+				A059FC8A1FDEE768005D402F /* ArticleSourceEntity.swift in Sources */,
 				A03D05BF1FDD90E6003FD183 /* DateExtension.swift in Sources */,
+				A059FC8E1FDEF155005D402F /* ArticleService.swift in Sources */,
+				A059FC881FDEDF10005D402F /* ArticleEntity.swift in Sources */,
 				A03D05B91FDD8F61003FD183 /* UITableViewCell+ReuseCellIdentifier.swift in Sources */,
+				A0D7B3111FDE3D0800ABA654 /* BaseViewController.swift in Sources */,
+				A056C6821FDEF8C0005A561A /* CoreAPIService.swift in Sources */,
+				A0D7B3171FDE497400ABA654 /* ConstantDefine.swift in Sources */,
+				A059FC911FDEF29D005D402F /* RequestInput.swift in Sources */,
+				A0D7B3131FDE3D7900ABA654 /* NewsListViewController.swift in Sources */,
 				A03D05C11FDD91A0003FD183 /* Realm+Security.swift in Sources */,
+				A056C6891FDEFDEF005A561A /* BaseTableViewCell.swift in Sources */,
 				A03D05C61FDD95DB003FD183 /* Realm+Converter.swift in Sources */,
 				A03D05BB1FDD8F87003FD183 /* UICollectionViewCell+ReuseCellIdentifier.swift in Sources */,
+				A059FC8C1FDEED84005D402F /* Alamofire+ObjectMapper.swift in Sources */,
+				A056C6861FDEFDD0005A561A /* ArticleTableViewCell.swift in Sources */,
+				A056C68B1FDF0915005A561A /* StringExtension.swift in Sources */,
 				A03D05BD1FDD90D3003FD183 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +682,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VSeeNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starptit.VSeeNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -621,6 +698,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VSeeNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starptit.VSeeNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ArticleTableViewCell" customModule="VSeeNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_not_avail" translatesAutoresizingMaskIntoConstraints="NO" id="OxO-my-Rwh">
+                        <rect key="frame" x="8" y="8" width="63" height="63"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="63" id="9gr-9J-On9"/>
+                            <constraint firstAttribute="width" secondItem="OxO-my-Rwh" secondAttribute="height" multiplier="1:1" id="ML6-3Q-iIo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="253" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="752" text="News headline title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M52-CZ-sPt">
+                        <rect key="frame" x="79" y="8" width="233" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="News description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJu-ms-LP5">
+                        <rect key="frame" x="79" y="30" width="233" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="TimeStamp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4Q-RC-jeB">
+                        <rect key="frame" x="79" y="51" width="233" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uZu-QI-2a3">
+                        <rect key="frame" x="0.0" y="79" width="320" height="0.5"/>
+                        <color key="backgroundColor" red="0.67450980392156867" green="0.67450980392156867" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="XIw-8K-0vn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uZu-QI-2a3" firstAttribute="top" secondItem="OxO-my-Rwh" secondAttribute="bottom" constant="8" id="0zt-sv-Yse"/>
+                    <constraint firstItem="M52-CZ-sPt" firstAttribute="leading" secondItem="OxO-my-Rwh" secondAttribute="trailing" constant="8" id="2V0-sM-yXk"/>
+                    <constraint firstItem="OxO-my-Rwh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="4S0-Xa-Wfj"/>
+                    <constraint firstItem="uZu-QI-2a3" firstAttribute="top" secondItem="O4Q-RC-jeB" secondAttribute="bottom" constant="8" id="BOe-ZW-0IT"/>
+                    <constraint firstItem="uZu-QI-2a3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CKN-Jd-HnF"/>
+                    <constraint firstAttribute="trailing" secondItem="O4Q-RC-jeB" secondAttribute="trailing" constant="8" id="DgX-jn-Ktq"/>
+                    <constraint firstAttribute="trailing" secondItem="uZu-QI-2a3" secondAttribute="trailing" id="PPa-Nq-JaD"/>
+                    <constraint firstItem="O4Q-RC-jeB" firstAttribute="leading" secondItem="OxO-my-Rwh" secondAttribute="trailing" constant="8" id="Qje-NZ-wlZ"/>
+                    <constraint firstItem="fJu-ms-LP5" firstAttribute="leading" secondItem="OxO-my-Rwh" secondAttribute="trailing" constant="8" id="Wd9-WC-qR1"/>
+                    <constraint firstItem="O4Q-RC-jeB" firstAttribute="top" secondItem="fJu-ms-LP5" secondAttribute="bottom" constant="4" id="YdH-sM-gbL"/>
+                    <constraint firstAttribute="trailing" secondItem="M52-CZ-sPt" secondAttribute="trailing" constant="8" id="aZT-Uc-AX6"/>
+                    <constraint firstAttribute="bottom" secondItem="uZu-QI-2a3" secondAttribute="bottom" id="g37-j9-9u1"/>
+                    <constraint firstItem="fJu-ms-LP5" firstAttribute="top" secondItem="M52-CZ-sPt" secondAttribute="bottom" constant="4" id="iaf-Zs-al4"/>
+                    <constraint firstItem="OxO-my-Rwh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="l3t-DZ-CpJ"/>
+                    <constraint firstItem="M52-CZ-sPt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="sBk-R0-Ri2"/>
+                    <constraint firstAttribute="trailing" secondItem="fJu-ms-LP5" secondAttribute="trailing" constant="8" id="tnc-8p-bf3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="articleDescriptionLabel" destination="fJu-ms-LP5" id="psT-6R-7hB"/>
+                <outlet property="articleImageView" destination="OxO-my-Rwh" id="shS-GF-1Ej"/>
+                <outlet property="articlePublishDateLabel" destination="O4Q-RC-jeB" id="Q8C-vE-wFt"/>
+                <outlet property="articleTitleLabel" destination="M52-CZ-sPt" id="EOh-Ds-4lO"/>
+            </connections>
+            <point key="canvasLocation" x="57" y="135"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="image_not_avail" width="50" height="50"/>
+    </resources>
+</document>
